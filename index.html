@@ -1,0 +1,26 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+		<ul>
+		  <li><a href="">Home</a></li>
+		  <li><a href="EC2.html">EC2</a></li>
+		  <li><a href="Blue Green Deployments to Aws Elastic.html" target="_blank">Blue Green Deployments to Aws Elastic</a></li>
+		</ul>
+		     </form>
+		</div>
+	</body>
+</html>
+ <script>
+    function validate() {
+    var val = document.getElementById('bookfile').value.toLowerCase();
+    var regex = new RegExp("(.*?)\.(docx|doc|pdf)$");
+        if(!(regex.test(val))) {
+            document.getElementById('bookfile').value = '';
+            alert('Please select correct file format.');
+            return false;   
+        }
+		return true;
+		}
+</script>
